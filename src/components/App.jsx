@@ -1,16 +1,18 @@
+import { UserProfile} from "./UserProfile/UserProfile";
+import user from '../assets/user.json';
+import userEvent from "@testing-library/user-event";
+import Container from "../components/Container/Container";
+
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Container>
+      <UserProfile
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats} />
+  </Container>
   );
 };
