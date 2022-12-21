@@ -1,0 +1,32 @@
+.statistics{
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+}
+.title{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #757575;
+}
+
+.statlist{
+    display: flex;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    width: calc((100%-30px) /5);
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+}
+
+.label{
+    font-size: 12px;
+}
