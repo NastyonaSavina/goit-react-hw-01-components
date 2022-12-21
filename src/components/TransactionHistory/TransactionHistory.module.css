@@ -1,0 +1,18 @@
+.transactionHistory{
+    border-radius: 8px;
+    background-color: #fff;
+    width: 300px;
+}
+
+.item{
+text-align: center;
+}
+
+.table{
+    background-color: rgb(231, 241, 245);
+    color: #757575;
+}
+
+.tbody:nth-child(even){
+    background-color: lightyellow;
+}

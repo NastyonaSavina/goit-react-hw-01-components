@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+// import { Fragment } from "react";
 import PropTypes from 'prop-types';
 
 import styles from "../UserProfile/UserProfile.module.css"
@@ -42,9 +42,9 @@ UserProfile.propTypes = {
     location: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
     stats: PropTypes.shape({
-        followers: PropTypes.number.isRequired,
-        views: PropTypes.number.isRequired,
-        likes: PropTypes.number.isRequired,
-    }).isRequired,
+        followers: PropTypes.number,
+        views: PropTypes.number,
+        likes: PropTypes.number,
+        }).isRequired,
 };
        
